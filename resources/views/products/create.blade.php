@@ -1,5 +1,8 @@
 @extends('products.layout')
 
+@section('title') {{'Create New Product'}} @endsection
+
+
 @section('content')
 <div class="row">
     <div class="col-lg-12 margin-tb">
