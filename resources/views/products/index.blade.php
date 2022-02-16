@@ -1,14 +1,10 @@
-@extends('products.layout')
+@extends('layouts.app')
 
 @section('content')
 
 <div class="row">
     <div class="col-lg-12">
-        <div class="float-left">
-            <h2>Laravel 8 CRUD</h2>
-        </div>
-
-        <div class="float-right">
+        <div class="float-start">
             <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
         </div>
     </div>
